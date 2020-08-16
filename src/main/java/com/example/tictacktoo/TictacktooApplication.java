@@ -1,15 +1,13 @@
 package com.example.tictacktoo;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.example.tictacktoo.dao.Player;
+import com.example.tictacktoo.service.Game;
 
-@SpringBootApplication
 public class TictacktooApplication {
 
 	public static void main(String[] args) throws Exception {
-//		SpringApplication.run(TictacktooApplication.class, args);
 		Player player1 = new Player(1);
-		Game game = new Game(player1, 3);
+		Game game = new Game(player1, 4);
 		Player player2 = new Player(2);
 		game.addPlayer(player2);
 

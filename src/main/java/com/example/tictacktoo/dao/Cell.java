@@ -1,4 +1,4 @@
-package com.example.tictacktoo;
+package com.example.tictacktoo.dao;
 
 public class Cell {
 

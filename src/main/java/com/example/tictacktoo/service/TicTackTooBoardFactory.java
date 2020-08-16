@@ -1,4 +1,8 @@
-package com.example.tictacktoo;
+package com.example.tictacktoo.service;
+
+import com.example.tictacktoo.dao.Player;
+import com.example.tictacktoo.service.TicTackTooBasicBoard;
+import com.example.tictacktoo.service.TicTackTooBoard;
 
 import java.util.List;
 

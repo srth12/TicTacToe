@@ -1,12 +1,14 @@
-package com.example.tictacktoo;
+package com.example.tictacktoo.dao;
 
-import lombok.Getter;
 
-@Getter
 public class Player {
     private int playerId;
 
     public Player(int id){
         this.playerId = id;
+    }
+
+    public int getPlayerId() {
+        return playerId;
     }
 }

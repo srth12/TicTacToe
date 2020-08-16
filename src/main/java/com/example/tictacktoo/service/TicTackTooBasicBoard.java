@@ -1,4 +1,8 @@
-package com.example.tictacktoo;
+package com.example.tictacktoo.service;
+
+import com.example.tictacktoo.enums.MOVE_STATUS;
+import com.example.tictacktoo.dao.Cell;
+import com.example.tictacktoo.dao.Player;
 
 public class TicTackTooBasicBoard implements TicTackTooBoard {
 
